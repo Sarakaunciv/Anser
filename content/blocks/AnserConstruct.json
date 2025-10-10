@@ -1,0 +1,29 @@
+{
+    //details
+
+    "type": "UnitFactory",
+    "name": "AnserConstruct",
+    "details": "",
+    "description": "",
+
+    //campaign
+
+	"requirements":["silicon/4000"],
+    "category": "units",
+    "research": "core-bastion"
+	
+    //specs
+
+    "size": 6,
+	"health":4000,
+	
+	"consumes":{"power":20},
+
+    "plans": [
+	{
+        "unit": "VeryFlare",
+        "requirements": ["silicon/900"],
+        "time": 360
+    }
+    ],
+}

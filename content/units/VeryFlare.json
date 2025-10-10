@@ -1,0 +1,87 @@
+{
+    //details
+
+    "name": "VeryFlare",
+    "description": "",
+    "details": "",
+
+    //stats
+
+    "type": "flying",
+    "template": "ErekirUnitType",
+    "flying": true,
+    "lowAltitude": true,
+    "health": 8000,
+    "armor": 0,
+    "hitSize": 32,
+    "speed": 2,
+    "rotateSpeed": 1,
+    "layerOffset": 300,
+    "groundLayer": 200,
+    "accel": 0.1,
+    "drag": 0.1,
+
+    //stats [build]
+
+    //"mineWalls": true,
+    //"mineFloor": true,
+    //"mineSpeed": 10000,
+    //"mineTier": 10,
+    //"buildSpeed": 10000,
+    //"itemCapacity": 10000,
+
+    //weapon
+
+    "weapons":[
+    {
+    "name": VeryFlare-weapon
+        "x": 0
+        "y": 0
+        "layerOffset": 100
+        "reload": 2
+        "shootSound": drillImpact
+        "mirror": false
+        "recoil": 2
+        "shootX": 0
+        "shootY": 8
+        "soundPitchMin": 0
+        "soundPitchMax": 2
+        "shootEffect": shootPyraFlame
+        "inaccuracy": 6
+        "rotate": true
+        "rotateSpeed": 4
+        "shootCone": 180
+        "bullet": {
+            "type": BasicBulletType
+            "backColor": aa0000
+            "frontColor": ffaa44
+            "mixColorFrom": ff4444
+            "mixColorTo": 880000
+            "damage": 90
+            "width": 16
+            "height": 16
+            "lifetime": 5
+            "speed": 36
+            "hitSound": spark
+            "hitSoundPitch": 4
+            "hittable": false
+            "reflectable": false
+            "splashDamageRadius": 40
+            "splashDamage": 30
+            "buildingDamageMultiplier": 0.01
+            "splashDamagePierce": true
+            "lightRadius": 0
+            "lightColor": 000000
+            "hitEffect": explosion
+            "hitColor": ff0000
+            "hitSize": 16
+    }}
+    ]
+
+    //campaign
+
+    "research": {
+        "parent": "base",
+        "requirements": [],
+    }
+}

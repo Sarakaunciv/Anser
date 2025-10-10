@@ -1,0 +1,21 @@
+
+{
+    //details
+
+    "type": "Wall",
+    "name": "SilicanWall1",
+    "details": "",
+    "description": "",
+
+    //campaign
+
+	"requirements":["silicon/6"],
+    "category": "defense",
+    "research": "core-bastion"
+	
+    //specs
+
+    "size": 1,
+	"health": 2000
+    "absorbLasers": true,
+}
